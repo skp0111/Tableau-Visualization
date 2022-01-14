@@ -27,16 +27,16 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='CO2' name='excel-direct.06ge5cr0aswpio11qbtl90lq9rjk'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Shashank Patel/Desktop/CO2.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Shashank Patel/Documents/GitHub/Tableau-Visualization/Datasets/Link 1 CO2.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
           <named-connection caption='Energy Data' name='excel-direct.1mbtj7414kv1qr1fj992j10if8ps'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Shashank Patel/Desktop/Energy Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Shashank Patel/Documents/GitHub/Tableau-Visualization/Datasets/Link 1 Energy Data.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
           <named-connection caption='gdptotal' name='excel-direct.0sm423m0x3wmv61be0sai1kz5m61'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Shashank Patel/Desktop/gdptotal.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Shashank Patel/Documents/GitHub/Tableau-Visualization/Datasets/Link 1 gdptotal.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
           <named-connection caption='totalpopulation' name='excel-direct.05voao51q4tjcf1d7mk180yoevxp'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Shashank Patel/Desktop/totalpopulation.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Shashank Patel/Documents/GitHub/Tableau-Visualization/Datasets/Link 1 totalpopulation.xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation join='inner' type='join'>
@@ -499,7 +499,7 @@
       <column caption='Country1' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
       <column caption='Year (Gdptotal)' datatype='date' name='[year (gdptotal)]' role='dimension' type='quantitative' />
       <column caption='Year1' datatype='date' name='[year]' role='dimension' type='quantitative' />
-      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='false' units='records'>
         <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/Shashank Patel/Desktop/CO2 Data Cleaned+ (Multiple Connections).hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='01/14/2022 10:50:21 AM' username='tableau_internal_user'>
           <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
           <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
@@ -837,7 +837,7 @@
     <mapsource name='Tableau' />
   </mapsources>
   <worksheets>
-    <worksheet name='Sheet 1'>
+    <worksheet name='CO2 Per Capita Over the Years'>
       <table>
         <view>
           <datasources>
@@ -894,7 +894,7 @@
     </worksheet>
   </worksheets>
   <windows saved-dpi-scale-factor='1.25' source-height='37'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' maximized='true' name='CO2 Per Capita Over the Years'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -933,7 +933,7 @@
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Sheet 1' width='192'>
+    <thumbnail height='192' name='CO2 Per Capita Over the Years' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
       AAAgAElEQVR4nOSdd3Qc13X/P29mewN20RtBACxgFTspShQlUlSvVldsxy0usR07P5fYiZI4
       dmwncWwrlkssF1my1XuXKFFib6LYKwoJotfF9joz7/fHAiBAgB2EqOh7Ds7B7k55b+be926/
